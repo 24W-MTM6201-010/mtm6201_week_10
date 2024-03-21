@@ -58,3 +58,36 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (prefers-color-scheme: dark) {
+  /* Styles */
+  body{
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  /* styles for reducing the motion */
+  .logo{
+    animation-play-state: paused;
+  }
+}
+
+.more-info{
+  height: 0;
+}
+.show-more:hover .more-info{
+  height: auto;
+}
+@media (hover: none) {
+  /* styles */
+  .more-info{
+    height: auto;
+  }
+}
+@media print{
+  header, a{
+    display: none !important;
+  }
+}
