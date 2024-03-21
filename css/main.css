@@ -35,7 +35,18 @@
 }
 
 /* Custom CSS */
+/* -------------------------
+          Banner
+------------------------- */
 .banner{
   background: white url(../images/main-banner.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/* -----------------------
+      Vision Section
+----------------------- */
+.vision{
+  background: black url(../images/vision.jpg) no-repeat center center;
   background-size: cover;
 }
